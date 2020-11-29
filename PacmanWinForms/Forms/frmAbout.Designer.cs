@@ -91,6 +91,7 @@ namespace PacmanWinForms
             this.lblWebPage.Size = new System.Drawing.Size(100, 23);
             this.lblWebPage.TabIndex = 2;
             // 
+          
             // label4
             // 
             this.label4.AutoSize = true;
@@ -108,6 +109,7 @@ namespace PacmanWinForms
             this.lblLicense.Size = new System.Drawing.Size(100, 23);
             this.lblLicense.TabIndex = 5;
             // 
+
             // label3
             // 
             this.label3.Location = new System.Drawing.Point(0, 0);
