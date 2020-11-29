@@ -98,6 +98,7 @@
             this.dgvHighScores.Size = new System.Drawing.Size(554, 250);
             this.dgvHighScores.TabIndex = 10;
             this.dgvHighScores.TabStop = false;
+            this.dgvHighScores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHighScores_CellContentClick);
             // 
             // colName
             // 
@@ -300,7 +301,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(554, 308);
+            this.ClientSize = new System.Drawing.Size(554, 307);
             this.Controls.Add(this.pnlCoin);
             this.Controls.Add(this.pnlDiff);
             this.Controls.Add(this.panel1);

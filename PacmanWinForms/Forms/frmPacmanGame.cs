@@ -215,7 +215,6 @@ namespace PacmanWinForms
 
             frmScores form = new frmScores();
             form.Show();
-            //form.parseScore((Convert.ToInt32(lblScore.Text)));
         }
 
         private void frmPacmanGame_Shown(object sender, EventArgs e)

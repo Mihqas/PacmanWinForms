@@ -22,7 +22,6 @@ namespace PacmanWinForms
         {
             InitializeComponent();
             GTools.loadHighScores(savePath, saveFile);
-           // HighScoreList.add(new HighScores("Obre", 1000));
 
         }
 
@@ -94,7 +93,6 @@ namespace PacmanWinForms
                 (this.ClientRectangle.Height - btnStart.Height) / 2);
             lstvDifficulty.Items[3].Selected = true;
             lstvAlgorithm.Items[0].Selected = true;
-            //PointLists.saveMap(1);
         }
     }
 }

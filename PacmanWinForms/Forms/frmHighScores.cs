@@ -71,6 +71,11 @@ namespace PacmanWinForms
             this.Close();
         }
 
+        private void dgvHighScores_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         private void frmScores_FormClosing(object sender, FormClosingEventArgs e)
         {
             if(btnAdd.Enabled) HighScoreList.add(new HighScores(txtName.Text, curScore, coinsAdded, difficulty));

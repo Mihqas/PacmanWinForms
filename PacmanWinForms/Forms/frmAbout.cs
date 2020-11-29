@@ -26,5 +26,10 @@ namespace PacmanWinForms
         {
             Process.Start("https://github.com/Mihqas");
         }
+
+        private void frmAbout_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
